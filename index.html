@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <main class="container">
+    <div class="cards">
+      <div class="card__back">
+        <p class="back__cvc">000</p>
+      </div>
+      <div class="card__front">
+        <div class="inside__card">
+          <img src="assets/images/card-logo.svg" alt="">
+          <div class="end__card">
+            <p class="front__number">0000 0000 0000 0000</p>
+            <div class="footer__card">
+              <p class="front__name">JANE APPLESEED</p>
+              <p class="front__date"><span class="mm">00</span>/<span class="yy">00</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="form__card">
+      <div class="input__card">
+        <p>CARDHOLDER NAME</p> 
+        <input type="text" class="input" id="name" placeholder="e.g. Jane Appleseed">
+        <p class="blank">Can't be blank</p>
+      </div>
+      <div class="input__card">
+        <p>CARD NUMBER</p> 
+        <input type="text" class="input" id="numbers" placeholder="e.g. 1234 5678 9123 0000">
+        <p class="blank">Can't be blank</p>
+        <p class="check">Wrong format, numbers only</p>
+      </div>
+      <div class="end__inputs">
+        <div class="right">
+          <p>EXP. DATE (MM/YY)</p>
+          <div class="ends">
+            <div class="input__card">
+              <input type="text" class="input" id="dateM" placeholder="MM">
+              <p class="empty">Can't be blank</p>
+              <p class="check">Please check</p>
+            </div>
+            <div class="input__card">
+              <input type="text" class="input" id="dateY" placeholder="YY">
+              <p class="empty2">Can't be blank</p>
+              <p class="check">Please check</p>
+            </div>
+          </div>
+        </div>
+        <div class="input__card left">
+          <p>CVC</p> 
+          <input type="text" class="input" id="cvc" placeholder="e.g. 123">
+          <p class="blank">Can't be blank</p>
+          <p class="check">Please check</p>
+        </div>
+      </div>
+      <input type="button" value="Confirm" id="submit">
+    </form>
+    <div class="modal">
+      <img src="assets/images/icon-complete.svg" alt="">
+      <h1 class="thankyou">THANK YOU!</h1>
+      <p class="added">We've added your card details</p>
+      <input type="button" value="Continue" class="continue">
+    </div>
+  </main>  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/chrisesbueno">@chrisesbueno</a>.
+    </div>
+  </footer>
+</body>
+<script src="main.js"></script>
+</html>
