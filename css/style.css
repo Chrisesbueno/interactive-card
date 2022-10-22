@@ -17,7 +17,7 @@ body {
     height: 100%;
     display: grid;
     place-items: center;
-    background: url('/assets/images/bg-main-mobile.png') no-repeat;
+    background: url(https://raw.githubusercontent.com/Chrisesbueno/interactive-card/main/assets/images/bg-main-mobile.png) no-repeat;
     background-size: 100% 40vh;
     font-family: 'Space Grotesk';
     margin: 20px 0;
@@ -35,7 +35,7 @@ body {
     height: 190px;
     position: relative;
     right: -9%;
-    background: url('/assets/images/bg-card-back.png') no-repeat;
+    background: url(https://raw.githubusercontent.com/Chrisesbueno/interactive-card/main/assets/images/bg-card-back.png) no-repeat;
     background-size: 100% 100%;
     z-index: 0;
 }
@@ -53,7 +53,7 @@ body {
     position: absolute;
     top: 58%;
     z-index: 1;
-    background: url('/assets/images/bg-card-front.png') no-repeat;
+    background: url(https://raw.githubusercontent.com/Chrisesbueno/interactive-card/main/assets/images/bg-card-front.png) no-repeat;
     background-size: 100% 100%;
 }
 .inside__card {
@@ -216,7 +216,7 @@ body {
 @media screen and (min-width:768px) {
     body {
         height: 100vh;
-        background: url('/assets/images/bg-main-desktop.png') no-repeat;
+        background: url(https://raw.githubusercontent.com/Chrisesbueno/interactive-card/main/assets/images/bg-main-desktop.png) no-repeat;
         background-size: 30vw 100vh;
         margin: 0px 0;
     }
