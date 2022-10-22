@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-card-datails-form-rVj1_vc6r9)
 - Live Site URL: [Add live site URL here](https://chrisesbueno.github.io/interactive-card/)
 
 ## My process
