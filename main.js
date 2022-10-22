@@ -28,7 +28,7 @@ button.addEventListener('click', (e) => {
 })
 
 form.addEventListener('input', (element) => {
-
+    
     /* Validate requirement inputs */
     let cvc = verified(data[0], data[0].value, 3);
     let numbers = verified(data[1], data[1].value, 19);
@@ -59,8 +59,6 @@ form.addEventListener('input', (element) => {
         e.preventDefault()
         if (cvc.length == 3 && numbers.length == 16 && name.length > 0 && MM.length == 2 && YY.length == 2) {
             form.parentElement.classList.add('confirm')
-        } else {
-            console.log('nope')
         }
     })
 })
@@ -85,8 +83,6 @@ function verified(input, number, n) {
     
     return cardnumber
 }
-
-
 
 function realTime(i) {
     card[i].innerHTML = data[i].value
